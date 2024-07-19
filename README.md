@@ -10,7 +10,10 @@ Develop a model to classify song snippets into one of four categories:
 
 ## Build-from-Scratch Models Overview
 
-_(Details to be added)_
+<div style="display: flex; justify-content: space-between;">
+  <img src="assets/CNN.png" alt="CNN Model" style="width: 45%;"/>
+  <img src="assets/Resnet.png" alt="ResNet Model" style="width: 45%;"/>
+</div>
 
 ## Improvements
 
