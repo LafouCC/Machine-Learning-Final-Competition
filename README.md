@@ -8,8 +8,13 @@ Develop a model to classify song snippets into one of four categories:
 - Female voice present
 - More than one person's voice
 
-## Build-from-Scratch Models Overview
+## Datasets
+- Train Set: 11886 song snippets with manual labels
+- Test Set: 2447 song snippets
 
+## Build-from-Scratch Models Overview
+- 4-Layer CNN
+- ResNet 34
 <div style="display: flex; justify-content: space-between;">
   <img src="assets/CNN.png" alt="CNN Model" style="width: 45%;"/>
   <img src="assets/Resnet.png" alt="ResNet Model" style="width: 45%;"/>
@@ -18,13 +23,14 @@ Develop a model to classify song snippets into one of four categories:
 ## Improvements
 
 - **Data Pre-processing** [^1]
+  - Transform mp3 data into Mel spectrogram 
 - **Data Augmentation**
   - Time Mask / Frequency Mask / Reverse
   - Mix-up
   - Up-sampling based on labels' weight
   - Human voice separation
 - **Model Improvement**
-  - Change the Input layer of ResNet
+  - Change the Input layer of ResNet 34
   - Ensembling
 - **Choice of Hyper-Parameters / Scheduler**
 
